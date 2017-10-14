@@ -1,0 +1,43 @@
+
+        if ("undefined" === typeof(__da_info_loaded)) {
+            var newScript = document.createElement("script");
+            newScript.type = "text/javascript";
+            newScript.src =  "https://st.directadvert.ru/news/js/info.min.js?t=1507964383";
+            document.getElementsByTagName("head")[0].appendChild(newScript);
+            __da_info_loaded = 1;
+        }
+    
+                if (typeof __da_widget_count == 'undefined') {
+                    __da_widget_count = 0;
+                }
+                __da_widget_count++;
+            try {var __da_widget_id = 298778;
+var __da_widget_div = "DIV_DA_298778_771";
+var __da_widget_src = '//code.directadvert.ru/data/298778.js?nnn=298778&div=DIV_DA_298778_771&async=1&t=0.849006073515739';
+var __da_widget_charset = "windows-1251";
+(function () {
+    var div = document.getElementById(__da_widget_div);
+    var s = document.createElement('script');
+    var h = document.getElementsByTagName('head')[0];
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = __da_widget_src;
+    s.onload = function () {
+        __da_init();
+    };
+    h.appendChild(s);
+
+    function __da_init() {
+
+        var ua = navigator.userAgent.toLowerCase();
+        var isAndroid = ua.indexOf("android") > -1;
+        if (isAndroid) {
+            var links = div.getElementsByTagName('a');
+            for (i = 0; i < links.length; i++) {
+                links[i].removeAttribute('target');
+            }
+        }
+    }
+
+})();
+} catch (e) {}

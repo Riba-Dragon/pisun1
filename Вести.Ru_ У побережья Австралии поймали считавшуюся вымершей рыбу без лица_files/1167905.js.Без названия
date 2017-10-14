@@ -1,0 +1,35 @@
+
+        if ("undefined" === typeof(__da_info_loaded)) {
+            var newScript = document.createElement("script");
+            newScript.type = "text/javascript";
+            newScript.src =  "https://st.directadvert.ru/news/js/info.min.js?t=1507964385";
+            document.getElementsByTagName("head")[0].appendChild(newScript);
+            __da_info_loaded = 1;
+        }
+    if(document.getElementById('grf_vesti_1_1_1')) { 
+            if (typeof __da_widget_count == 'undefined') {
+                __da_widget_count = 0;
+            }
+            __da_widget_count++;
+        
+                (function () {
+                    var __da_widget_src = '//a.giraff.io/data/1167905.js?nnn=1167905&div=grf_vesti_1_1_1&async=1&cs=utf-8&clickwrap=https%3A%2F%2Fdata.giraff.io%2Fclick%2Fna%2Fvesti%2F%3Fu%3Dhttps%253A%252F%252Fwww.vesti.ru%252Fdoc.html%253Fid%253D2894185%26ref%3Dwww.google.ru%26go%3D&t=0.0843284637488289';
+
+                        var ca = document.cookie.split(";");
+                        for (var i=0; i<ca.length; i++) {
+                            var c = ca[i].replace(/\s/g, "");
+                            if (c.indexOf("__da_as=") === 0) {
+                                __da_widget_src += "&as=" + c.substr(8);
+                            }
+                        }
+                    
+
+                    var newScript = document.createElement('script');
+                    newScript.type = 'text/javascript';
+                    newScript.charset = 'utf-8';
+                    newScript.src = __da_widget_src;
+                    newScript.async = true;
+                    var s = document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0];
+                    s.appendChild(newScript);
+                })();
+            eval("try {new Image().src = '//counter.yadro.ru/hit;All_da_nnn_dn_realty?r'+escape(document.referrer)+((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+';'+Math.random();} catch (e) {}");} 
